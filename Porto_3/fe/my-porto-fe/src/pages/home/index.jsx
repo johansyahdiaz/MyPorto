@@ -1,4 +1,5 @@
 import Layout from "../../components/layout";
+import Card from "../../components/card";
 
 export default function Index() {
   return (
@@ -22,54 +23,34 @@ export default function Index() {
         <h1 className="text-center font-extrabold text-3xl text-[#E2E2B6]">Personal Project</h1>
         <div className="m-4 border-t-2 md:m-8 sm:mt-1">
           <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center mt-8 gap-8 lg:auto-rows-min lg:p-36 2xl:px-96 lg:px-20">
-            <div className="card card-compact bg-[#6EACDA] w-80 md:w-80 lg:w-96 shadow-xl">
-              <figure>
-                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div className="card-actions justify-end">
-                  <button className="btn bg-[#03346E] text-[#E2E2B6]">Buy Now</button>
-                </div>
-              </div>
-            </div>
-            <div className="card card-compact bg-[#6EACDA] w-80 md:w-80 lg:w-96 shadow-xl">
-              <figure>
-                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div className="card-actions justify-end">
-                  <button className="btn bg-[#03346E] text-[#E2E2B6]">Buy Now</button>
-                </div>
-              </div>
-            </div>
-            <div className="card card-compact bg-[#6EACDA] w-80 md:w-80 lg:w-96 shadow-xl">
-              <figure>
-                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div className="card-actions justify-end">
-                  <button className="btn bg-[#03346E] text-[#E2E2B6]">Buy Now</button>
-                </div>
-              </div>
-            </div>
-            <div className="card card-compact bg-[#6EACDA] w-80 md:w-80 lg:w-96 shadow-xl">
-              <figure>
-                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
-              </figure>
-              <div className="card-body">
-                <h2 className="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
-                <div className="card-actions justify-end">
-                  <button className="btn bg-[#03346E] text-[#E2E2B6]">Buy Now</button>
-                </div>
-              </div>
-            </div>
+            <Card
+              image="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              title="Shoes!"
+              description="If a dog chews shoes whose shoes does he choose?"
+              buttonText="Buy Now"
+              onButtonClick={() => console.log("Button clicked!")}
+            />
+            <Card
+              image="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              title="Shoes!"
+              description="If a dog chews shoes whose shoes does he choose?"
+              buttonText="Buy Now"
+              onButtonClick={() => console.log("Button clicked!")}
+            />
+            <Card
+              image="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              title="Shoes!"
+              description="If a dog chews shoes whose shoes does he choose?"
+              buttonText="Buy Now"
+              onButtonClick={() => console.log("Button clicked!")}
+            />
+            <Card
+              image="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              title="Shoes!"
+              description="If a dog chews shoes whose shoes does he choose?"
+              buttonText="Buy Now"
+              onButtonClick={() => console.log("Button clicked!")}
+            />
           </div>
         </div>
         <div className="mt-24">
