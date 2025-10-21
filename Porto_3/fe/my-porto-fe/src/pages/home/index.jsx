@@ -20,7 +20,7 @@ export default function Index() {
         </div>
       </div>
       <div className="mb-10">
-        <h1 className="text-center font-extrabold text-3xl text-[#E2E2B6]">Personal Project</h1>
+        <h1 className="text-center font-extrabold text-3xl text-[#E2E2B6]">Project</h1>
         <div className="m-4 border-t-2 md:m-8 sm:mt-1">
           <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center mt-8 gap-8 lg:auto-rows-min lg:p-36 2xl:px-96 lg:px-20">
             <Card

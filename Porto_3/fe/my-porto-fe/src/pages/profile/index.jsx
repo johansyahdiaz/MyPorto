@@ -6,6 +6,7 @@ import { FaPhp, FaLinkedin } from "react-icons/fa6";
 import { SiCoreldraw } from "react-icons/si";
 import { RiFlowChart } from "react-icons/ri";
 import BadgeSkill from "../../components/badge";
+import Card from "../../components/card";
 
 export default function Profile() {
   return (
@@ -56,7 +57,38 @@ export default function Profile() {
       </div>
       <div className="mt-24">
         <h1 className=" text-center font-extrabold text-3xl text-[#E2E2B6]">Project</h1>
-        <div className="m-4 border-t-2 md:m-8 sm:mt-1 "></div>
+        <div className="m-4 border-t-2 md:m-8 sm:mt-1 ">
+          <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center mt-8 gap-8 lg:auto-rows-min lg:p-36 2xl:px-96 lg:px-20">
+            <Card
+              image="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              title="Shoes!"
+              description="If a dog chews shoes whose shoes does he choose?"
+              buttonText="Buy Now"
+              onButtonClick={() => console.log("Button clicked!")}
+            />
+            <Card
+              image="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              title="Shoes!"
+              description="If a dog chews shoes whose shoes does he choose?"
+              buttonText="Buy Now"
+              onButtonClick={() => console.log("Button clicked!")}
+            />
+            <Card
+              image="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              title="Shoes!"
+              description="If a dog chews shoes whose shoes does he choose?"
+              buttonText="Buy Now"
+              onButtonClick={() => console.log("Button clicked!")}
+            />
+            <Card
+              image="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+              title="Shoes!"
+              description="If a dog chews shoes whose shoes does he choose?"
+              buttonText="Buy Now"
+              onButtonClick={() => console.log("Button clicked!")}
+            />
+          </div>
+        </div>
       </div>
     </Layout>
   );
